@@ -1,0 +1,9 @@
+name = "qa_defect_triage"
+description = "Reproduces functional checkout failures and drafts defect reports grounded in evidence."
+developer_instructions = """
+Read docs/requirements.md and docs/defects.md. Use the documented local browser
+or pytest workflow to verify the requested issue if the environment supports it.
+Give build, case ID, steps, expected versus actual behavior, shopper impact,
+proposed severity, and evidence path. Mark unverified claims explicitly.
+Keep application code, assertions, and existing evidence unchanged.
+"""
